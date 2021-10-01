@@ -22,11 +22,13 @@ body {
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+
 }
 
 .jumbotron h2 {
   text-shadow: 2px 2px #ff0000;
-  font-size: 60px;
+  font-size: 5vw;
+  font-size: 5vh;
   font-weight: 700;
   margin: 0;
   color: #fff;
@@ -104,24 +106,33 @@ body {
 	outline: 2px dotted black;
 }
 
+.col-md-4 {
+	outline: 2px dotted black;
+	
+}
+
+
 .fakeband {
 	height: 50%;
 	width: 50%;
 	margin-right: 10px;
+	min-width: 200px
+
+
 }
 
-.btn.btn-info {
+.btn.btn-secondary {
 	align-self: center;
 
 }
 
-.btn.btn-info:hover {
+.btn.btn-secondary:hover {
   color: #64788c;
   background-color: #64788c;
 }
 
 #legalwarning {
-
+  font-family: Helvetica;
 	font-size:  250%;
 	color:  darkred;
 	text-shadow:
@@ -135,7 +146,7 @@ body {
     0 -2px 0 #ffffff;
 }
 
-.col-sm-3 {
+.col-lg-3 {
 	outline: 2px dotted black;
 	margin-top: 15px;
 }
@@ -157,3 +168,39 @@ body {
     0 -2px 0 #000000;
 
 }
+
+.containeroutlined {
+	outline:  2px dotted whitesmoke;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 2px;
+}
+
+.rating
+{
+	margin-top: 15px;
+	height: 40%;
+	width: 30%;
+}
+
+.nameclient
+
+{
+	font-size: 200%;
+	text-decoration:  underline;
+}
+
+.responsive
+
+{
+	text-shadow: 2px 2px #ff0000;
+  font-size: 5vw;
+  font-size: 5vh;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  z-index: 999;
+
+}
+
+.dblock
