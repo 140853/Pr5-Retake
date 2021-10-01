@@ -1,0 +1,159 @@
+* {margin:  0; padding:  0; font-size:  100%; font-family: 'Courier Prime', monospace; color:  whitesmoke;}
+
+body {
+	background-color: darkslategray;
+	
+	background-attachment:  fixed;
+}
+
+.logo {
+	display:  block;
+	margin-left:  auto;
+	margin-right: auto;
+	width:  30%;
+	
+}
+
+.jumbotron {
+	display: flex;
+  align-items: center;
+  background-image: url(../images/gnr.png);
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  text-shadow: 2px 2px #ff0000;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  text-shadow: 2px 2px #64788c;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.btn.btn-dark {
+  border-radius: 20px;
+  border: 50px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+  width: 30%;
+  margin-left:  auto;
+	margin-right: auto;
+}
+
+.btn.btn-dark:hover {
+  color: #64788c;
+  background-color: #64788c;
+}
+
+
+
+.slogan {
+	font-size:  175%;
+	text-align:  left;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 15px;
+	color:  whitesmoke;
+	
+}
+
+.mainstory {
+	
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align:  center;
+}
+
+.carousel h5 {
+	font-size: 350%;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.bandtitle {
+	font-size: 300%;
+	text-decoration:  underline;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.col-sm-4 {
+	outline: 2px dotted black;
+}
+
+.fakeband {
+	height: 50%;
+	width: 50%;
+	margin-right: 10px;
+}
+
+.btn.btn-info {
+	align-self: center;
+
+}
+
+.btn.btn-info:hover {
+  color: #64788c;
+  background-color: #64788c;
+}
+
+#legalwarning {
+
+	font-size:  250%;
+	color:  darkred;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,  
+    -2px 0 0 #ffffff,
+    2px 0 0 #ffffff,
+    0 2px 0 #ffffff,
+    0 -2px 0 #ffffff;
+}
+
+.col-sm-3 {
+	outline: 2px dotted black;
+	margin-top: 15px;
+}
+
+.fakealbum {
+	margin-top: 10px;
+}
+
+.licensepackage {
+	font-size: 125%;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+
+}
