@@ -169,13 +169,13 @@ body {
 
 .fakealbum {
 	margin-top: 10px;
-	align-self: Left;
-	float:  left;
+	align-self: center;
+	float:  center;
 	padding: 0 10px 0 0;
 }
 
 .licensepackage {
-	font-size: 125%;
+	font-size: 120%;
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
@@ -216,8 +216,4 @@ body {
 	min-width: 150px;
 	min-height: 120px;
 	max-height: 400px;
-}
-
-.lorem {
-	text-align:  justify;
 }
