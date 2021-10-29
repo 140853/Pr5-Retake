@@ -28,18 +28,32 @@ body {
 
 }
 
+.jumbotronfooterindex {
+	background-color:  black;
+	display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  height: 60px;
+  width:  100%;
+  
+ 
+
+}
+
 .jumbotronfooter {
 	background-color:  black;
 	display: flex;
   align-items: center;
   background-size: cover;
   color: #ffffff;
-  height: 80px;
+  height: 60px;
   width:  100%;
-  
+  margin-top: 70px;
  
 
 }
+
 
 .jumbotron h2 {
   text-shadow: 2px 2px #ff0000;
@@ -218,3 +232,10 @@ body {
 	min-height: 120px;
 	max-height: 400px;
 }
+
+h6 {
+	font-size: 145%;
+	margin-top: 5px;
+	align-self: center;
+}
+
